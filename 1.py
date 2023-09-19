@@ -1,5 +1,7 @@
 # Complete the connection URI
 import pandas as pd
+import sqlalchemy
+
 connection_uri = "postgresql://repl:password@localhost:5432/datacamp_application" 
 db_engine = sqlalchemy.create_engine(connection_uri)
 
